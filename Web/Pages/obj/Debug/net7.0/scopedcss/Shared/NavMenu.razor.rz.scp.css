@@ -6,7 +6,7 @@
 
 .navbarApp__wrapper[b-35dlf7nlf3] {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .navbarApp .sidebar-image[b-35dlf7nlf3] {
