@@ -16,7 +16,8 @@
 else
 {
     <div class="containerPage containerPage--featured">
-        <div class="categories">
+        @*if it is a parent have the names of their children *@
+        @*<div class="categories">
             <NavLink href="categories" class="appLink" title="See all categories">
                 See all categories
             </NavLink>
@@ -27,7 +28,7 @@ else
                     </NavLink>
                 </ItemTemplate>
             </Tags>
-        </div>
+        </div>*@
 
         @if (!groupedShows.Any())
         {
@@ -58,12 +59,24 @@ else
     private const int MaxShows = 10;
     private const int MaxCategories = 5;
 
-    private Show[]? allShows;
+    //private Show[]? allShows;
+    private List<Show>? allShows;
     private Dictionary<string, List<Show>>? groupedShows;
     private IEnumerable<Category>? topCategories;
     private PersistingComponentStateSubscription _persistingSubscription;
 
+    protected override void OnInitialized()
+    {
+        Show s1 = new Show(Guid.NewGuid(), "Titile", "Course Name", "sdasd", "_content/Podcast.Components/images/future.png", DateTime.Now, "sadas", "", "", new List<Category> { new Category(Guid.NewGuid(), "") }, new List<Episode> { new Episode(Guid.NewGuid(), "", "", "", DateTime.Now, null, "") }, true);
+        Show s2 = new Show(Guid.NewGuid(), "Titile", "Course Name", "sdasd", "_content/Podcast.Components/images/conflict.jpg", DateTime.Now, "sadas", "", "", new List<Category> { new Category(Guid.NewGuid(), "") }, new List<Episode> { new Episode(Guid.NewGuid(), "", "", "", DateTime.Now, null, "") }, true);
 
+        allShows = new List<Show>();
+        allShows.Add(s1);
+        allShows.Add(s2);
+        groupedShows = new Dictionary<string, List<Show>>();
+
+        groupedShows.Add("Your Classes", allShows);
+    }
 
     //use for search classes
     private async Task FetchShows(string? searchValue = null)
