@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Pages.bundle.scp.css",
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Pages.bundle.scp.css",
       "PackagePath": "staticwebassets\\Podcast.Pages.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\images\\logo-flat.svg",
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\images\\logo-flat.svg",
       "PackagePath": "staticwebassets\\images\\logo-flat.svg"
     },
     {
-      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\images\\no-listen-later.png",
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\images\\no-listen-later.png",
       "PackagePath": "staticwebassets\\images\\no-listen-later.png"
     },
     {
-      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\images\\no-subscriptions.png",
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\images\\no-subscriptions.png",
       "PackagePath": "staticwebassets\\images\\no-subscriptions.png"
     },
     {
-      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\js\\customEvents.js",
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\js\\customEvents.js",
       "PackagePath": "staticwebassets\\js\\customEvents.js"
     },
     {
-      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\js\\theme.js",
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\js\\theme.js",
       "PackagePath": "staticwebassets\\js\\theme.js"
     },
     {

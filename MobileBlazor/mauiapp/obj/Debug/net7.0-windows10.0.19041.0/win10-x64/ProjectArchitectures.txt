@@ -1,2 +1,2 @@
-C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Lib\SharedMauiLib\SharedMauiLib.csproj;neutral
-C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\NetPodsMauiBlazor.csproj;x64
+C:\Users\timos\Desktop\MyLearning\MyLearning\Lib\SharedMauiLib\SharedMauiLib.csproj;neutral
+C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\NetPodsMauiBlazor.csproj;x64

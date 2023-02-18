@@ -10,34 +10,34 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>E0B8B8CA-6A49-44D7-B794-BCCBCD90090F</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\NetPodsMauiBlazor.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\NetPodsMauiBlazor.runtimeconfig.json">
       <PackagePath>NetPodsMauiBlazor.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\NetPodsMauiBlazor.dll">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\NetPodsMauiBlazor.dll">
       <PackagePath>NetPodsMauiBlazor.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Lib\SharedMauiLib\bin\Debug\net7.0-windows10.0.19041.0\SharedMauiLib.dll">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Lib\SharedMauiLib\bin\Debug\net7.0-windows10.0.19041.0\SharedMauiLib.dll">
       <PackagePath>SharedMauiLib.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>NetPodsMauiBlazor.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\timos\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.3\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
@@ -766,22 +766,22 @@
     <AppxPackagedFile Include="C:\Users\timos\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\bin\Debug\net7.0\Podcast.Components.dll">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\bin\Debug\net7.0\Podcast.Components.dll">
       <PackagePath>Podcast.Components.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Pages\bin\Debug\net7.0\Podcast.Pages.dll">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Pages\bin\Debug\net7.0\Podcast.Pages.dll">
       <PackagePath>Podcast.Pages.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\bin\Debug\net7.0\Podcast.Shared.dll">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Shared\bin\Debug\net7.0\Podcast.Shared.dll">
       <PackagePath>Podcast.Shared.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\NetPodsMauiBlazor.deps.json">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\NetPodsMauiBlazor.deps.json">
       <PackagePath>NetPodsMauiBlazor.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\obj\Debug\net7.0\staticwebassets.development.json">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\obj\Debug\net7.0\staticwebassets.development.json">
       <PackagePath>Podcast.Components.staticwebassets.runtime.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Pages\obj\Debug\net7.0\staticwebassets.development.json">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Pages\obj\Debug\net7.0\staticwebassets.development.json">
       <PackagePath>Podcast.Pages.staticwebassets.runtime.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -793,283 +793,283 @@
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\NetPodsMauiBlazor.styles.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\NetPodsMauiBlazor.styles.css">
       <PackagePath>wwwroot\NetPodsMauiBlazor.styles.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\wwwroot\appsettings.Development.json">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\wwwroot\appsettings.Development.json">
       <PackagePath>wwwroot\appsettings.Development.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\wwwroot\appsettings.json">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\wwwroot\appsettings.json">
       <PackagePath>wwwroot\appsettings.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\wwwroot\index.html">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\obj\Debug\net7.0\scopedcss\projectbundle\Podcast.Components.bundle.scp.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\obj\Debug\net7.0\scopedcss\projectbundle\Podcast.Components.bundle.scp.css">
       <PackagePath>wwwroot\_content\Podcast.Components\Podcast.Components.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\audioJsInterop.js">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\audioJsInterop.js">
       <PackagePath>wwwroot\_content\Podcast.Components\audioJsInterop.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\button.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\button.css">
       <PackagePath>wwwroot\_content\Podcast.Components\css\button.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\fonts\SegoeUI.woff">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\fonts\SegoeUI.woff">
       <PackagePath>wwwroot\_content\Podcast.Components\css\fonts\SegoeUI.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\fonts\SegoeUIBold.woff">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\fonts\SegoeUIBold.woff">
       <PackagePath>wwwroot\_content\Podcast.Components\css\fonts\SegoeUIBold.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\fonts\SegoeUILight.woff">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\fonts\SegoeUILight.woff">
       <PackagePath>wwwroot\_content\Podcast.Components\css\fonts\SegoeUILight.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\fonts\SegoeUISemibold.woff">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\fonts\SegoeUISemibold.woff">
       <PackagePath>wwwroot\_content\Podcast.Components\css\fonts\SegoeUISemibold.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\fonts\SegoeUISemilight.woff">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\fonts\SegoeUISemilight.woff">
       <PackagePath>wwwroot\_content\Podcast.Components\css\fonts\SegoeUISemilight.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\icons\fonts\podcast-icons.svg">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\icons\fonts\podcast-icons.svg">
       <PackagePath>wwwroot\_content\Podcast.Components\css\icons\fonts\podcast-icons.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\icons\fonts\podcast-icons.ttf">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\icons\fonts\podcast-icons.ttf">
       <PackagePath>wwwroot\_content\Podcast.Components\css\icons\fonts\podcast-icons.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\icons\fonts\podcast-icons.woff">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\icons\fonts\podcast-icons.woff">
       <PackagePath>wwwroot\_content\Podcast.Components\css\icons\fonts\podcast-icons.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\icons\style.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\icons\style.css">
       <PackagePath>wwwroot\_content\Podcast.Components\css\icons\style.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\input.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\input.css">
       <PackagePath>wwwroot\_content\Podcast.Components\css\input.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\reset.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\reset.css">
       <PackagePath>wwwroot\_content\Podcast.Components\css\reset.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\site.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\site.css">
       <PackagePath>wwwroot\_content\Podcast.Components\css\site.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\splash.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\splash.css">
       <PackagePath>wwwroot\_content\Podcast.Components\css\splash.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\css\styles.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\css\styles.css">
       <PackagePath>wwwroot\_content\Podcast.Components\css\styles.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\images\bg-splash.jpg">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\images\bg-splash.jpg">
       <PackagePath>wwwroot\_content\Podcast.Components\images\bg-splash.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\images\bot-wait.svg">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\images\bot-wait.svg">
       <PackagePath>wwwroot\_content\Podcast.Components\images\bot-wait.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\images\empty-results.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\images\empty-results.png">
       <PackagePath>wwwroot\_content\Podcast.Components\images\empty-results.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\images\logo-icon.svg">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\images\logo-icon.svg">
       <PackagePath>wwwroot\_content\Podcast.Components\images\logo-icon.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Components\wwwroot\themeJsInterop.js">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\wwwroot\themeJsInterop.js">
       <PackagePath>wwwroot\_content\Podcast.Components\themeJsInterop.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Pages\obj\Debug\net7.0\scopedcss\projectbundle\Podcast.Pages.bundle.scp.css">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Pages\obj\Debug\net7.0\scopedcss\projectbundle\Podcast.Pages.bundle.scp.css">
       <PackagePath>wwwroot\_content\Podcast.Pages\Podcast.Pages.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Pages\wwwroot\images\logo-flat.svg">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Pages\wwwroot\images\logo-flat.svg">
       <PackagePath>wwwroot\_content\Podcast.Pages\images\logo-flat.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Pages\wwwroot\images\no-listen-later.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Pages\wwwroot\images\no-listen-later.png">
       <PackagePath>wwwroot\_content\Podcast.Pages\images\no-listen-later.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Pages\wwwroot\images\no-subscriptions.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Pages\wwwroot\images\no-subscriptions.png">
       <PackagePath>wwwroot\_content\Podcast.Pages\images\no-subscriptions.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Pages\wwwroot\js\customEvents.js">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Pages\wwwroot\js\customEvents.js">
       <PackagePath>wwwroot\_content\Podcast.Pages\js\customEvents.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Pages\wwwroot\js\theme.js">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Pages\wwwroot\js\theme.js">
       <PackagePath>wwwroot\_content\Podcast.Pages\js\theme.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-100.png">
       <PackagePath>player_play.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-125.png">
       <PackagePath>player_play.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-150.png">
       <PackagePath>player_play.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-200.png">
       <PackagePath>player_play.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\timos\Desktop\MyLearning\MyLearning\MobileBlazor\mauiapp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\player_play.scale-400.png">
       <PackagePath>player_play.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

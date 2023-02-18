@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "ajQ8yebLEkD6iHWWItu+c3O8ILDpVVTP8+HKnzsBepk=",
+  "Hash": "FMSjdjLrUwDaNgG5vmZ5xvXTRIeK+Y2W7QinL9sWpLE=",
   "Source": "Podcast.Pages",
   "BasePath": "_content/Podcast.Pages",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\Podcast.Components.csproj",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\Podcast.Components.csproj",
       "Version": 2,
       "Source": "Podcast.Components",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,24 +22,24 @@
     {
       "Name": "Podcast.Components\\wwwroot",
       "Source": "Podcast.Components",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "Pattern": "**"
     },
     {
       "Name": "Podcast.Pages\\wwwroot",
       "Source": "Podcast.Pages",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\",
       "BasePath": "_content/Podcast.Pages",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Components.bundle.scp.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Components.bundle.scp.css",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "Podcast.Components.bundle.scp.css",
       "AssetKind": "All",
@@ -50,13 +50,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Components.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Components.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\audioJsInterop.js",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\audioJsInterop.js",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "audioJsInterop.js",
       "AssetKind": "All",
@@ -70,10 +70,10 @@
       "OriginalItemSpec": "wwwroot\\audioJsInterop.js"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\button.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\button.css",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/button.css",
       "AssetKind": "All",
@@ -87,10 +87,10 @@
       "OriginalItemSpec": "wwwroot\\css\\button.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUI.woff",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUI.woff",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/fonts/SegoeUI.woff",
       "AssetKind": "All",
@@ -104,10 +104,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\SegoeUI.woff"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUIBold.woff",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUIBold.woff",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/fonts/SegoeUIBold.woff",
       "AssetKind": "All",
@@ -121,10 +121,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\SegoeUIBold.woff"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUILight.woff",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUILight.woff",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/fonts/SegoeUILight.woff",
       "AssetKind": "All",
@@ -138,10 +138,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\SegoeUILight.woff"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUISemibold.woff",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUISemibold.woff",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/fonts/SegoeUISemibold.woff",
       "AssetKind": "All",
@@ -155,10 +155,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\SegoeUISemibold.woff"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUISemilight.woff",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUISemilight.woff",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/fonts/SegoeUISemilight.woff",
       "AssetKind": "All",
@@ -172,10 +172,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\SegoeUISemilight.woff"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.svg",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.svg",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/icons/fonts/podcast-icons.svg",
       "AssetKind": "All",
@@ -189,10 +189,10 @@
       "OriginalItemSpec": "wwwroot\\css\\icons\\fonts\\podcast-icons.svg"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.ttf",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.ttf",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/icons/fonts/podcast-icons.ttf",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\icons\\fonts\\podcast-icons.ttf"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.woff",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.woff",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/icons/fonts/podcast-icons.woff",
       "AssetKind": "All",
@@ -223,10 +223,10 @@
       "OriginalItemSpec": "wwwroot\\css\\icons\\fonts\\podcast-icons.woff"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\style.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\style.css",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/icons/style.css",
       "AssetKind": "All",
@@ -240,10 +240,10 @@
       "OriginalItemSpec": "wwwroot\\css\\icons\\style.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\input.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\input.css",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/input.css",
       "AssetKind": "All",
@@ -257,10 +257,10 @@
       "OriginalItemSpec": "wwwroot\\css\\input.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\reset.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\reset.css",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/reset.css",
       "AssetKind": "All",
@@ -274,10 +274,10 @@
       "OriginalItemSpec": "wwwroot\\css\\reset.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\site.css",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -291,10 +291,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\splash.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\splash.css",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/splash.css",
       "AssetKind": "All",
@@ -308,10 +308,10 @@
       "OriginalItemSpec": "wwwroot\\css\\splash.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\css\\styles.css",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -325,10 +325,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\images\\bg-splash.jpg",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\images\\bg-splash.jpg",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "images/bg-splash.jpg",
       "AssetKind": "All",
@@ -342,10 +342,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg-splash.jpg"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\images\\bot-wait.svg",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\images\\bot-wait.svg",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "images/bot-wait.svg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bot-wait.svg"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\images\\empty-results.png",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\images\\empty-results.png",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "images/empty-results.png",
       "AssetKind": "All",
@@ -376,10 +376,10 @@
       "OriginalItemSpec": "wwwroot\\images\\empty-results.png"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\images\\logo-icon.svg",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\images\\logo-icon.svg",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "images/logo-icon.svg",
       "AssetKind": "All",
@@ -393,10 +393,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-icon.svg"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\themeJsInterop.js",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\themeJsInterop.js",
       "SourceId": "Podcast.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Components\\wwwroot\\",
       "BasePath": "_content/Podcast.Components",
       "RelativePath": "themeJsInterop.js",
       "AssetKind": "All",
@@ -410,10 +410,10 @@
       "OriginalItemSpec": "wwwroot\\themeJsInterop.js"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Podcast.Pages.styles.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Podcast.Pages.styles.css",
       "SourceId": "Podcast.Pages",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Podcast.Pages",
       "RelativePath": "Podcast.Pages.styles.css",
       "AssetKind": "All",
@@ -424,13 +424,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Podcast.Pages.styles.css"
+      "OriginalItemSpec": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Podcast.Pages.styles.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Pages.bundle.scp.css",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Pages.bundle.scp.css",
       "SourceId": "Podcast.Pages",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Podcast.Pages",
       "RelativePath": "Podcast.Pages.bundle.scp.css",
       "AssetKind": "All",
@@ -441,13 +441,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Pages.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Pages.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\images\\logo-flat.svg",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\images\\logo-flat.svg",
       "SourceId": "Podcast.Pages",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\",
       "BasePath": "_content/Podcast.Pages",
       "RelativePath": "images/logo-flat.svg",
       "AssetKind": "All",
@@ -461,10 +461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-flat.svg"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\images\\no-listen-later.png",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\images\\no-listen-later.png",
       "SourceId": "Podcast.Pages",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\",
       "BasePath": "_content/Podcast.Pages",
       "RelativePath": "images/no-listen-later.png",
       "AssetKind": "All",
@@ -478,10 +478,10 @@
       "OriginalItemSpec": "wwwroot\\images\\no-listen-later.png"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\images\\no-subscriptions.png",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\images\\no-subscriptions.png",
       "SourceId": "Podcast.Pages",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\",
       "BasePath": "_content/Podcast.Pages",
       "RelativePath": "images/no-subscriptions.png",
       "AssetKind": "All",
@@ -495,10 +495,10 @@
       "OriginalItemSpec": "wwwroot\\images\\no-subscriptions.png"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\js\\customEvents.js",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\js\\customEvents.js",
       "SourceId": "Podcast.Pages",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\",
       "BasePath": "_content/Podcast.Pages",
       "RelativePath": "js/customEvents.js",
       "AssetKind": "All",
@@ -512,10 +512,10 @@
       "OriginalItemSpec": "wwwroot\\js\\customEvents.js"
     },
     {
-      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\js\\theme.js",
+      "Identity": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\js\\theme.js",
       "SourceId": "Podcast.Pages",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Pages\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\timos\\Desktop\\MyLearning\\MyLearning\\Web\\Pages\\wwwroot\\",
       "BasePath": "_content/Podcast.Pages",
       "RelativePath": "js/theme.js",
       "AssetKind": "All",
