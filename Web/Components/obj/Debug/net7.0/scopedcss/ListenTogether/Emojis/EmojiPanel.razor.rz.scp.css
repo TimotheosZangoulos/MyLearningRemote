@@ -1,0 +1,60 @@
+.emojiPanel[b-lep5mcovma] {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+}
+
+.emojiPanel__bubble[b-lep5mcovma] {
+    --size: 20px;
+    --left: 0%;
+    --rotate: 0deg;
+    --opacity: 1;
+    animation: bubble-b-lep5mcovma 6s ease-out;
+    display: flex;
+    height: var(--size);
+    left: calc(var(--left) - (var(--size) / 2));
+    opacity: var(--opacity);
+    position: fixed;
+    transform: rotate(var(--rotate));
+    width: var(--size);
+    z-index: 10;
+}
+
+.emojiPanel__bubble[b-lep5mcovma]  > svg {
+    height: auto;
+    width: 100%;
+}
+
+.emojiPanel__emoji[b-lep5mcovma]  svg {
+  width: 50px;
+}
+
+@keyframes bubble-b-lep5mcovma {
+    from {
+        bottom: -15%;
+    }
+
+    to {
+        bottom: 115%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+    .emojiPanel[b-lep5mcovma] {
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1679px) {
+    .emojiPanel[b-lep5mcovma] {
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .emojiPanel[b-lep5mcovma] {
+        gap: 60px;
+    }
+}

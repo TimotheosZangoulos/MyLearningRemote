@@ -1,0 +1,30 @@
+.usernameModal[b-cij5a8o8c2] {
+}
+
+.usernameModal__info[b-cij5a8o8c2] {
+    font-family: var(--ff-regular);
+    font-size: var(--text-m-fs);
+    line-height: var(--text-m-lh);
+    margin-bottom: 32px;
+}
+
+.usernameModal__title[b-cij5a8o8c2] {
+    font-family: var(--ff-semibold);
+    font-size: var(--subheadings-s6-fs);
+    line-height: var(--subheadings-s6-lh);
+    margin-bottom: 12px;
+}
+
+.usernameModal__input[b-cij5a8o8c2] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 767px) {
+    .usernameModal[b-cij5a8o8c2] {
+        overflow-y: auto;
+        padding: 0 12px 0 0;
+    }
+}

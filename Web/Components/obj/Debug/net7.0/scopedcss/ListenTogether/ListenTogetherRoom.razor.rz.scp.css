@@ -1,0 +1,94 @@
+.listen-together-wrapper.listen-together-wrapper--users[b-ht0h3mwg84] {
+    grid-template-areas:
+        'sidebar'
+        'main';
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr;
+}
+
+.listen-together-room__episode[b-ht0h3mwg84] {
+    background-color: var(--c-neutral-white-complementary);
+    border-radius: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.listen-together-sidebar__item-avatar .avatar-user[b-ht0h3mwg84] {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.listen-together-sidebar__item-avatar .avatar-icon[b-ht0h3mwg84] {
+    font-size: 32px;
+    margin-right: 12px;
+}
+
+.listen-together-sidebar__item-avatar .avatar-self[b-ht0h3mwg84] {
+    color: var(--c-neutral-grey7);
+    font-size: var(--text-xs-fs);
+    line-height: var(--text-xs-lh);
+}
+
+.listen-together-sidebar__leave-room[b-ht0h3mwg84] {
+    margin-bottom: 24px;
+    margin-top: 16px;
+    width: fit-content;
+}
+
+.listen-together-emoji-wrapper[b-ht0h3mwg84] {
+    background-color: var(--c-neutral-white-complementary);
+    border-radius: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+    .listen-together-emoji-wrapper[b-ht0h3mwg84]  .subtitlePage {
+        margin-bottom: 32px;
+    }
+
+.listen-together-sidebar-invite[b-ht0h3mwg84] {
+    padding-top: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .listen-together-room__episode[b-ht0h3mwg84] {
+        display: none;
+    }
+
+    .listen-together-emoji-wrapper[b-ht0h3mwg84]  .subtitlePage {
+        font-size: var(--text-m-fs);
+        line-height: var(--text-m-lh);
+    }
+
+    .listen-together-emoji-wrapper[b-ht0h3mwg84] {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .listen-together-room__episode[b-ht0h3mwg84] {
+        padding: 32px 48px 48px;
+    }
+
+    .listen-together-emoji-wrapper[b-ht0h3mwg84] {
+        padding: 32px 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .listen-together-sidebar-invite[b-ht0h3mwg84] {
+        border-top: 1px solid var(--c-neutral-grey4);
+    }
+
+    .listen-together-wrapper.listen-together-wrapper--users[b-ht0h3mwg84] {
+        gap: 0 42px;
+        grid-template-rows: auto;
+        grid-template-areas: 'sidebar main';
+        grid-template-columns: 1fr 2fr;
+    }
+}

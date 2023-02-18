@@ -1,0 +1,91 @@
+.listen-together__invite[b-cdorgpqv78] {
+    display: grid;
+    gap: 16px;
+    grid-auto-rows: min-content;
+    grid-template-areas: 
+        'title'
+        'input'
+        'notes'
+        'button';
+}
+
+.listen-together__invite-title[b-cdorgpqv78] {
+    font-family: var(--ff-semibold);
+    font-size: var(--text-l-fs);
+    line-height: var(--text-l-lh);
+    grid-area: title;
+}
+
+.listen-together__invite-notes[b-cdorgpqv78] {
+    font-size: var(--text-m-fs);
+    line-height: var(--text-m-lh);
+    grid-area: notes;
+}
+
+.listen-together__invite-input-wrapper[b-cdorgpqv78] {
+    position: relative;
+    grid-area: input;
+}
+
+.listen-together__invite-input[b-cdorgpqv78] {
+    appearance: none;
+    outline: 0 none;
+    font-size: var(--text-m-fs);
+    line-height: var(--text-m-lh);
+    background-color: var(--c-searchbar);
+    border: 1px solid var(--c-neutral-grey4);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 36px;
+    padding: 6px 36px 6px 6px;
+    display: block;
+    width: 100%;
+}
+
+    .listen-together__invite-input[b-cdorgpqv78],
+    .listen-together__invite-input[b-cdorgpqv78]::placeholder {
+        color: var(--c-neutral-grey8);
+    }
+
+.listen-togethter__invite-input-tooltip[b-cdorgpqv78] {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+}
+
+.listen-together__invite-input-button[b-cdorgpqv78] {
+    grid-area: button;
+    display: flex;
+    color: var(--c-primary);
+    font-size: 24px;
+}
+
+    .listen-together__invite-input-button:hover[b-cdorgpqv78] {
+        color: var(--c-primary-dark);
+        cursor: pointer;
+    }
+
+@media screen and (max-width: 1279px) {
+    .listen-together__invite[b-cdorgpqv78] {
+        display: grid;
+        gap: 16px;
+        grid-template-areas:
+            'title title'
+            'input button';
+        grid-template-columns: 1fr auto;
+    }
+
+    .listen-togethter__invite-input-tooltip[b-cdorgpqv78] {
+        display: none;
+    }
+
+    .listen-together__invite-input-wrapper[b-cdorgpqv78] {
+        display: flex;
+        align-items: center;
+    }
+
+    .listen-together__invite-notes[b-cdorgpqv78] {
+        display: none;
+    }
+}

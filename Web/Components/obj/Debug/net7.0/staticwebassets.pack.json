@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Podcast.Components.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Podcast.Components.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\audioJsInterop.js",
+      "PackagePath": "staticwebassets\\audioJsInterop.js"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\button.css",
+      "PackagePath": "staticwebassets\\css\\button.css"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUI.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\SegoeUI.woff"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUIBold.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\SegoeUIBold.woff"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUILight.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\SegoeUILight.woff"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUISemibold.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\SegoeUISemibold.woff"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\fonts\\SegoeUISemilight.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\SegoeUISemilight.woff"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.svg",
+      "PackagePath": "staticwebassets\\css\\icons\\fonts\\podcast-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.ttf",
+      "PackagePath": "staticwebassets\\css\\icons\\fonts\\podcast-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\fonts\\podcast-icons.woff",
+      "PackagePath": "staticwebassets\\css\\icons\\fonts\\podcast-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\icons\\style.css",
+      "PackagePath": "staticwebassets\\css\\icons\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\input.css",
+      "PackagePath": "staticwebassets\\css\\input.css"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\reset.css",
+      "PackagePath": "staticwebassets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\splash.css",
+      "PackagePath": "staticwebassets\\css\\splash.css"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\images\\bg-splash.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-splash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\images\\bot-wait.svg",
+      "PackagePath": "staticwebassets\\images\\bot-wait.svg"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\images\\empty-results.png",
+      "PackagePath": "staticwebassets\\images\\empty-results.png"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\images\\logo-icon.svg",
+      "PackagePath": "staticwebassets\\images\\logo-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\timos\\Desktop\\MyLearning\\Web\\Components\\wwwroot\\themeJsInterop.js",
+      "PackagePath": "staticwebassets\\themeJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Podcast.Components.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Podcast.Components.props",
+      "PackagePath": "build\\Podcast.Components.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Podcast.Components.props",
+      "PackagePath": "buildMultiTargeting\\Podcast.Components.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Podcast.Components.props",
+      "PackagePath": "buildTransitive\\Podcast.Components.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

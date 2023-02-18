@@ -1,0 +1,52 @@
+.player-bars[b-35jiw7f0bj] {
+}
+
+svg[data-color="bars-white"] rect[b-35jiw7f0bj] {
+    fill: var(--c-neutral-white);
+}
+
+svg[data-color="bars-color"] rect[b-35jiw7f0bj] {
+    fill: var(--c-primary);
+}
+
+.player-bars rect[b-35jiw7f0bj] {
+    --scaleStart: 0.7;
+    transform-origin: bottom center;
+    animation: breath-b-35jiw7f0bj 0.5s alternate infinite ease-in-out;
+}
+
+.player-bars.paused rect[b-35jiw7f0bj] {
+    animation-play-state: paused;
+}
+
+.player-bars rect:nth-child(3)[b-35jiw7f0bj],
+.player-bars rect:nth-child(9)[b-35jiw7f0bj] {
+    --scaleEnd: 1.1;
+}
+
+.player-bars rect:nth-child(2)[b-35jiw7f0bj],
+.player-bars rect:nth-child(4)[b-35jiw7f0bj],
+.player-bars rect:nth-child(6)[b-35jiw7f0bj],
+.player-bars rect:nth-child(10)[b-35jiw7f0bj] {
+    animation-delay: -800ms;
+    --scaleEnd: 1.1;
+}
+
+.player-bars rect:nth-child(1)[b-35jiw7f0bj],
+.player-bars rect:nth-child(5)[b-35jiw7f0bj],
+.player-bars rect:nth-child(8)[b-35jiw7f0bj],
+.player-bars rect:nth-child(11)[b-35jiw7f0bj],
+.player-bars rect:nth-child(12)[b-35jiw7f0bj] {
+    animation-delay: -400ms;
+    --scaleEnd: 1.1;
+}
+
+@keyframes breath-b-35jiw7f0bj {
+    0% {
+        transform: scaleY(var(--scaleStart));
+    }
+
+    100% {
+        transform: scaleY(var(--scaleEnd));
+    }
+}

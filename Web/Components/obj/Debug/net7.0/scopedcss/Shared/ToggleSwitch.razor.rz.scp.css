@@ -1,0 +1,114 @@
+.toggle-switch[b-wgmdcux0nu] {
+    align-items: flex-start;
+    display: flex;
+}
+
+.toggle-switch-input-wrapper[b-wgmdcux0nu] {
+    margin-right: 8px;
+    position: relative;
+}
+
+.toggle-switch-input[b-wgmdcux0nu] {
+    appearance: none;
+    border: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.toggle-switch-control[b-wgmdcux0nu] {
+    background-color: var(--c-neutral-grey1);
+    display: block;
+    height: 22px;
+    width: 42px;
+    border: 1px solid var(--c-switch);
+    box-sizing: border-box;
+    border-radius: 50px;
+    position: relative;
+}
+
+    .toggle-switch-control[b-wgmdcux0nu]::before {
+        background-color: var(--c-switch);
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 12px;
+        width: 12px;
+        transition: transform 0.3s ease;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(3px, -50%);
+    }
+
+.toggle-switch-input:hover:not(:disabled)[b-wgmdcux0nu],
+.toggle-switch-label:hover[b-wgmdcux0nu] {
+    cursor: pointer;
+}
+
+    .toggle-switch-input:hover:not(:disabled) ~ .toggle-switch-control[b-wgmdcux0nu] {
+        border-color: var(--c-switch-dark);
+    }
+
+        .toggle-switch-input:hover:not(:disabled) ~ .toggle-switch-control[b-wgmdcux0nu]::before {
+            background-color: var(--c-switch-dark);
+        }
+
+.toggle-switch-input:checked ~ .toggle-switch-control[b-wgmdcux0nu]::before {
+    transform: translate(calc(100% + 12px), -50%);
+}
+
+.toggle-switch-input:checked ~ .toggle-switch-control[b-wgmdcux0nu] {
+    background-color: var(--c-primary);
+    border-color: var(--c-primary);
+}
+
+    .toggle-switch-input:checked ~ .toggle-switch-control[b-wgmdcux0nu]::before {
+        background-color: var(--c-neutral-white);
+    }
+
+.toggle-switch-input:checked:hover:not(:disabled) ~ .toggle-switch-control[b-wgmdcux0nu] {
+    background-color: var(--c-primary-dark);
+    border-color: var(--c-primary-dark);
+}
+
+    .toggle-switch-input:checked:hover:not(:disabled) ~ .toggle-switch-control[b-wgmdcux0nu]::before {
+        background-color: var(--c-neutral-white);
+    }
+
+.toggle-switch-input:disabled ~ .toggle-switch-control[b-wgmdcux0nu] {
+    background-color: var(--c-neutral-white);
+    border-color: var(--c-neutral-grey5);
+}
+
+    .toggle-switch-input:disabled ~ .toggle-switch-control[b-wgmdcux0nu]::before {
+        background-color: var(--c-neutral-grey5);
+    }
+
+.toggle-switch-input:disabled:checked ~ .toggle-switch-control[b-wgmdcux0nu] {
+    background-color: var(--c-neutral-grey5);
+    border-color: var(--c-neutral-grey5);
+}
+
+    .toggle-switch-input:disabled:checked ~ .toggle-switch-control[b-wgmdcux0nu]::before {
+        background-color: var(--c-neutral-white);
+    }
+
+.toggle-switch-label[b-wgmdcux0nu],
+.toggle-switch-description[b-wgmdcux0nu] {
+    font-size: var(--text-s-fs);
+    line-height: var(--text-s-lh);
+}
+
+.toggle-switch-description[b-wgmdcux0nu] {
+    color: var(--c-neutral-grey7);
+    margin-top: 4px;
+}
+
+@media screen and (min-width: 992px) {
+}

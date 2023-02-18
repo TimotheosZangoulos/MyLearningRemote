@@ -1,0 +1,36 @@
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\bin\Debug\net7.0\Podcast.Shared.deps.json
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\bin\Debug\net7.0\Podcast.Shared.dll
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\bin\Debug\net7.0\Podcast.Shared.pdb
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\Podcast.Shared.csproj.AssemblyReference.cache
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\Podcast.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\Podcast.Shared.AssemblyInfoInputs.cache
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\Podcast.Shared.AssemblyInfo.cs
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\Podcast.Shared.csproj.CoreCompileInputs.cache
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\Podcast.Shared.dll
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\refint\Podcast.Shared.dll
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\Podcast.Shared.pdb
+C:\Users\timos\Desktop\.NET podcast app\dotnet-podcasts-main\src\Web\Shared\obj\Debug\net7.0\ref\Podcast.Shared.dll
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\bin\Debug\net7.0\Podcast.Shared.deps.json
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\bin\Debug\net7.0\Podcast.Shared.dll
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\bin\Debug\net7.0\Podcast.Shared.pdb
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\Podcast.Shared.csproj.AssemblyReference.cache
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\Podcast.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\Podcast.Shared.AssemblyInfoInputs.cache
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\Podcast.Shared.AssemblyInfo.cs
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\Podcast.Shared.csproj.CoreCompileInputs.cache
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\Podcast.Shared.dll
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\refint\Podcast.Shared.dll
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\Podcast.Shared.pdb
+C:\Users\timos\Desktop\MyLearning1\Web\Shared\obj\Debug\net7.0\ref\Podcast.Shared.dll
+C:\Users\timos\Desktop\MyLearning\Web\Shared\bin\Debug\net7.0\Podcast.Shared.deps.json
+C:\Users\timos\Desktop\MyLearning\Web\Shared\bin\Debug\net7.0\Podcast.Shared.dll
+C:\Users\timos\Desktop\MyLearning\Web\Shared\bin\Debug\net7.0\Podcast.Shared.pdb
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\Podcast.Shared.csproj.AssemblyReference.cache
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\Podcast.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\Podcast.Shared.AssemblyInfoInputs.cache
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\Podcast.Shared.AssemblyInfo.cs
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\Podcast.Shared.csproj.CoreCompileInputs.cache
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\Podcast.Shared.dll
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\refint\Podcast.Shared.dll
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\Podcast.Shared.pdb
+C:\Users\timos\Desktop\MyLearning\Web\Shared\obj\Debug\net7.0\ref\Podcast.Shared.dll

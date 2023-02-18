@@ -1,0 +1,23 @@
+.header[b-ys09amls8w]  .header__logo {
+    display: flex;
+    width: 120px;
+    padding: 12px 14px;
+    align-items: center;
+}
+
+    .header[b-ys09amls8w]  .header__logo img,
+    .header[b-ys09amls8w]  .header__logo svg {
+        width: 100%;
+        height: auto;
+    }
+
+    .header[b-ys09amls8w]  .header__logo .logo-label {
+        fill: var(--c-neutral-grey8);
+    }
+
+@media screen and (min-width: 992px) {
+    .header[b-ys09amls8w]  .header__logo {
+        width: 230px;
+        padding: 43px 41px;
+    }
+}

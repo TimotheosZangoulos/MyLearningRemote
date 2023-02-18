@@ -1,0 +1,122 @@
+.listen-together-episode[b-yuold8a2qu] {
+    display: grid;
+    gap: 20px 32px;
+    grid-template-areas:
+        'subtitle'
+        'picture'
+        'details';
+    grid-template-columns: auto;
+}
+
+.listen-together-episode__picture[b-yuold8a2qu] {
+    grid-area: picture;
+}
+
+.listen-together-episode__info[b-yuold8a2qu] {
+    grid-area: details;
+}
+
+.listen-together-episode[b-yuold8a2qu]  .picture > img {
+    width: 100%;
+}
+
+.listen-together-episode__episode-title[b-yuold8a2qu] {
+    font-size: var(--headlines-h2-fs);
+    line-height: var(--headlines-h2-lh);
+}
+
+.listen-together-episode__title[b-yuold8a2qu] {
+    font-size: var(--headlines-h4-fs);
+    line-height: var(--headlines-h4-lh);
+}
+
+.listen-together-episode__data[b-yuold8a2qu] {
+    color: var(--c-neutral-grey7);
+    margin-bottom: 24px;
+}
+
+.listen-together-episode__description[b-yuold8a2qu] {
+    font-size: var(--text-m-fs);
+    line-height: var(--text-m-lh);
+}
+
+.listen-together-episode__episode-title[b-yuold8a2qu],
+.listen-together-episode__title[b-yuold8a2qu] {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    font-family: var(--ff-semibold);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 12px;
+    word-break: break-all;
+}
+
+@media screen and (min-width: 768px) {
+    .listen-together-episode[b-yuold8a2qu] {
+        grid-template-areas:
+            'subtitle subtitle'
+            'picture details';
+        grid-template-columns: 300px auto;
+        gap: 20px 32px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .listen-together-episode__picture[b-yuold8a2qu] {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1919px) {
+    .listen-together-episode[b-yuold8a2qu] {
+        grid-template-columns: 170px auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1679px) {
+    [b-yuold8a2qu] .picture {
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    .listen-together-episode__episode-title[b-yuold8a2qu] {
+        font-size: var(--headlines-h4-fs);
+        line-height: var(--headlines-h4-lh);
+    }
+
+    .listen-together-episode__title[b-yuold8a2qu] {
+        font-size: var(--headlines-h6-fs);
+        line-height: var(--headlines-h6-lh);
+    }
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1679px) {
+    .listen-together-episode__episode-title[b-yuold8a2qu] {
+        font-size: var(--headlines-h5-fs);
+        line-height: var(--headlines-h5-lh);
+    }
+
+    .listen-together-episode__title[b-yuold8a2qu] {
+        font-size: var(--headlines-h6-fs);
+        line-height: var(--headlines-h6-lh);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .listen-together-episode__description[b-yuold8a2qu] {
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+
+@media screen and (min-width: 1366px) {
+    .listen-together-episode__description[b-yuold8a2qu] {
+        -webkit-line-clamp: 4;
+    }
+}

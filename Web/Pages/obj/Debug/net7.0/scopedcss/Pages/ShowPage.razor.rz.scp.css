@@ -1,0 +1,19 @@
+.showEpisodes[b-r1oxypr2y3] {
+    padding: 0 16px;
+}
+
+.showEpisodes[b-r1oxypr2y3]  .subtitlePage {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .showEpisodes[b-r1oxypr2y3] {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .showEpisodes[b-r1oxypr2y3] {
+        margin-left: 332px;
+    }
+}

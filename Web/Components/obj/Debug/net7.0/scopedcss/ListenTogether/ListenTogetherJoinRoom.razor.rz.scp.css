@@ -1,0 +1,17 @@
+.listen-together-join-room-code[b-o2y3qigovv] {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+    .listen-together-join-room-code .roomCode__input[b-o2y3qigovv] {
+        margin-bottom: 16px;
+    }
+
+@media screen and (max-width: 1279px) {
+    .listen-together .listen-together-main.listen-together-main__rooms[b-o2y3qigovv] {
+        display: flex;
+        background: initial;
+        padding: 0;
+    }
+}

@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = Podcast.Components
+build_property.RootNamespace = Podcast.Components
+build_property.ProjectDir = C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\timos\Desktop\MyLearning\MyLearning\Web\Components
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Emojis/ClappingHandsEmoji.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtb2ppc1xDbGFwcGluZ0hhbmRzRW1vamkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Emojis/CryingFaceEmoji.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtb2ppc1xDcnlpbmdGYWNlRW1vamkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Emojis/FaceTearsOfJoyEmoji.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtb2ppc1xGYWNlVGVhcnNPZkpveUVtb2ppLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Emojis/HeartEmoji.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtb2ppc1xIZWFydEVtb2ppLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Emojis/ThumbsDownEmoji.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtb2ppc1xUaHVtYnNEb3duRW1vamkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Emojis/ThumbsUpEmoji.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtb2ppc1xUaHVtYnNVcEVtb2ppLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/Emojis/EmojiPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcRW1vamlzXEVtb2ppUGFuZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lep5mcovma
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/Emojis/EmojiPanelButton.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcRW1vamlzXEVtb2ppUGFuZWxCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wtf18ljzxx
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/ListenTogether.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcTGlzdGVuVG9nZXRoZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kfi339nctr
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/ListenTogetherEmptyRoom.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcTGlzdGVuVG9nZXRoZXJFbXB0eVJvb20ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bnyswp22j8
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/ListenTogetherEpisode.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcTGlzdGVuVG9nZXRoZXJFcGlzb2RlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-yuold8a2qu
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/ListenTogetherInvite.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcTGlzdGVuVG9nZXRoZXJJbnZpdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cdorgpqv78
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/ListenTogetherJoinRoom.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcTGlzdGVuVG9nZXRoZXJKb2luUm9vbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-o2y3qigovv
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/ListenTogetherRoom.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcTGlzdGVuVG9nZXRoZXJSb29tLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ht0h3mwg84
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/ListenTogether/UsernameForm.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdGVuVG9nZXRoZXJcVXNlcm5hbWVGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-cij5a8o8c2
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Player/FloatingPlayer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGxheWVyXEZsb2F0aW5nUGxheWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-o2667siz2o
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Grid/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdyaWRcQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-uslw49a72b
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Grid/Grid.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdyaWRcR3JpZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-oxdqyl0iaz
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-kmq7itqpu5
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/NoResults.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ak0ezt77od
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Picture.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBpY3R1cmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dihv8swvwe
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/PlayerBars.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBsYXllckJhcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-35jiw7f0bj
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Spinner.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNwaW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q2ubbffzgs
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/SubtitlePage.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1YnRpdGxlUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-w1n8c8f2vo
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Tags.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRhZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2y0x6iqwe6
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/TitlePage.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRpdGxlUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qn5rtwc1si
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/ToggleSwitch.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvZ2dsZVN3aXRjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-wgmdcux0nu
+
+[C:/Users/timos/Desktop/MyLearning/MyLearning/Web/Components/Shared/Tooltip.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvb2x0aXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kiw0q5ek1w
