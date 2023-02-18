@@ -2412,3 +2412,5 @@
 /Web/Shared/obj/Debug/net7.0/Podcast.Shared.csproj.FileListAbsolute.txt
 /Web/Shared/obj/Debug/net7.0/Podcast.Shared.dll
 /Web/Shared/obj/Debug/net7.0/Podcast.Shared.pdb
+/MobileBlazor/.vs/Podcast.DotnetMaui.Blazor/v17/.suo
+/MobileBlazor/mauiapp/obj/Debug/net7.0-android/NetPodsMauiBlazor.csproj.AssemblyReference.cache
