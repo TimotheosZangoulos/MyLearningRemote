@@ -1,5 +1,5 @@
 ﻿@page "/discover"
-@implements IDisposable
+
 @inject PodcastService PodcastService
 @inject PlayerService PlayerService
 @inject SubscriptionsService SubscriptionsService
@@ -63,49 +63,17 @@ else
     private IEnumerable<Category>? topCategories;
     private PersistingComponentStateSubscription _persistingSubscription;
 
-    protected override async Task OnInitializedAsync()
-    {
-        _persistingSubscription = ApplicationState.RegisterOnPersisting(PersistShows);
 
-        if (!ApplicationState.TryTakeFromJson<Show[]>("shows", out var restored))
-        {
-            allShows = await PodcastService.GetShows(MaxShows, null);
-        }
-        else
-        {
-            allShows = restored!;
-        }
-        UpdateGroupedShowsAndCategories(allShows);
-    }
 
-    private void UpdateGroupedShowsAndCategories(Show[]? shows)
-    {
-        groupedShows = shows?
-            .GroupBy(s => s.IsFeatured)
-            .Where(s => s.Any())
-            .ToDictionary(s => s.Key ? "What's new" : "Specially for you", s => s.ToList());
-
-        topCategories = shows?
-            .SelectMany(s => s.Categories)
-            .Distinct()
-            .Take(MaxCategories)
-            .ToArray();
-    }
-
+    //use for search classes
     private async Task FetchShows(string? searchValue = null)
     {
         var searchShows = await PodcastService.GetShows(MaxShows, searchValue);
-        UpdateGroupedShowsAndCategories(searchShows);
+       // UpdateGroupedShowsAndCategories(searchShows);
+
     }
 
-    private Task PersistShows()
-    {
-        ApplicationState.PersistAsJson("shows", allShows);
-        return Task.CompletedTask;
-    }
 
-    public void Dispose()
-    {
-        _persistingSubscription.Dispose();
-    }
+
+ 
 }
