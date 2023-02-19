@@ -2,7 +2,7 @@
 @implements IDisposable
 @inject ListenLaterService ListenLaterService
 
-<PageTitle>.NET Podcasts - Listen later</PageTitle>
+<PageTitle>News From All Courses</PageTitle>
 
 @if (listenLaterEpisodes == null)
 {
@@ -12,14 +12,14 @@ else
 {
     <div class="containerPage">
         <div class="titleWrapper">
-            <TitlePage Label="Listen later" />
+            <TitlePage Label="News From All Courses" />
         </div>
 
         <div class="contentWrapper">
             @if (!listenLaterEpisodes.Any())
             {
-                <NoResults Message="You haven't added any podcasts yet."
-                   Description="Discover content related to your interests and add it to this list if you want to listen to it later."
+                <NoResults Message="There arent any news yet..."
+                   Description="We will add news here as soon as they get created!"
                    Image="_content/Podcast.Pages/images/no-listen-later.png" />
             }
             else
@@ -39,7 +39,15 @@ else
     {
         if (firstRender)
         {
-            listenLaterEpisodes = await ListenLaterService.GetEpisodesAsync();
+            EpisodeInfo e1 = new EpisodeInfo(Guid.NewGuid(), "Title", "Description", "Url", DateTime.Now, null, null);
+            listenLaterEpisodes = new List<EpisodeInfo>();
+            listenLaterEpisodes.Add(e1);
+            listenLaterEpisodes.Add(e1);
+            listenLaterEpisodes.Add(e1);
+            listenLaterEpisodes.Add(e1);
+            listenLaterEpisodes.Add(e1);
+            listenLaterEpisodes.Add(e1);
+            // listenLaterEpisodes = await ListenLaterService.GetEpisodesAsync();
             StateHasChanged();
         }
     }

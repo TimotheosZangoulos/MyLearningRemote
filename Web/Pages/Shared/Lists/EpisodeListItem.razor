@@ -4,7 +4,7 @@
 @inject NavigationManager NavigationManager
 
 <article class="episode">
-    <div class="episode-sound">
+   @* <div class="episode-sound">
         <button class="buttonIcon episode-play" title="@(isCurrentEpisode && isPlaying ? "Pause" : "Play")" @onclick="TogglePlay">
             <span class="@(isCurrentEpisode && isPlaying ? "icon-pause" : "icon-play")"></span>
         </button>
@@ -15,18 +15,18 @@
         }
 
         <span class="episode-length">@(Math.Round(Episode.Duration?.TotalMinutes ?? 0, 0)) min</span>
-    </div>
+    </div>*@
     <div class="episode-resumeTitle">
         @if (IsShowVisible)
         {
-            <Picture Title="@Episode.Show.Title" Image="@Episode.Show.Image" />
+            <Picture Title="@Episode.Title" Image="_content/Podcast.Components/images/future.png" />
         }
 
         <div>
-            <h3 class="episode-resumeTitle-title @(isCurrentEpisode ? "is-playing" : "")">@Episode.Title</h3>
+            <h3 class="episode-resumeTitle-title">@Episode.Title</h3>
             @if (IsShowVisible)
             {
-                <h4 class="episode-resumeTitle-showTitle">@Episode.Show.Title</h4>
+                <h4 class="episode-resumeTitle-showTitle">@Episode.Title</h4>
             }
             <h4 class="episode-resumeTitle-date">@Episode.Published.ToString("MMM dd, yyyy")</h4>
         </div>
@@ -34,14 +34,14 @@
     <p class="episode-description">
         @((MarkupString)(Episode.Description ?? ""))
     </p>
-    <div class="episode-actions">
+    @*<div class="episode-actions">
         <button class="buttonIcon episode-actions-share" title="Listen Together" @onclick="CreateListenTogetherRoom">
             <span class="icon-listen-together"></span>
         </button>
         <button class="buttonIcon episode-actions-later" title="Listen Later" @onclick="ToggleListenLater">
             <span class="@(isListenLater ? "icon-listen-later-fill" : "icon-listen-later-line")"></span>
         </button>
-    </div>
+    </div>*@
 </article>
 
 @code {
