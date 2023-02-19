@@ -44,12 +44,28 @@ else
 
                 <Grid Items="@group.Value" TItem="Show">
                     <ItemTemplate Context="item">
-                        <NavLink @key="item.Id" href="@($"show/{item.Id}")">
-                            <ShowCard Id="@item.Id" Title="@item.Title" Author="@item.Author" Image="@item.Image" />
-                        </NavLink>
+                        @if (item.Title != "Add New Class")
+                        {
+                            <NavLink @key="item.Id" href="@($"show/{item.Id}")">
+                                <ShowCard Id="@item.Id" Title="@item.Title" Author="@item.Author" Image="@item.Image" />
+                            </NavLink>
+                        } 
+                        else
+                        {
+                            <NavLink @key="item.Id" href="@($"AddNewClass")">
+                                <ShowCard Id="@item.Id" Title="@item.Title" Author="" Image="@item.Image" />
+                            </NavLink>
+                        }
+
                     </ItemTemplate>
+                 
+
                     <EmptyResults></EmptyResults>
                 </Grid>
+                
+
+                
+
             }
         }
     </div>
@@ -69,10 +85,15 @@ else
     {
         Show s1 = new Show(Guid.NewGuid(), "Titile", "Course Name", "sdasd", "_content/Podcast.Components/images/future.png", DateTime.Now, "sadas", "", "", new List<Category> { new Category(Guid.NewGuid(), "") }, new List<Episode> { new Episode(Guid.NewGuid(), "", "", "", DateTime.Now, null, "") }, true);
         Show s2 = new Show(Guid.NewGuid(), "Titile", "Course Name", "sdasd", "_content/Podcast.Components/images/conflict.jpg", DateTime.Now, "sadas", "", "", new List<Category> { new Category(Guid.NewGuid(), "") }, new List<Episode> { new Episode(Guid.NewGuid(), "", "", "", DateTime.Now, null, "") }, true);
-
+        
         allShows = new List<Show>();
         allShows.Add(s1);
         allShows.Add(s2);
+
+        // only if it is a student or teacher
+        Show s3 = new Show(Guid.NewGuid(), "Add New Class", "Course Name", "sdasd", "_content/Podcast.Components/images/addNew.svg", DateTime.Now, "sadas", "", "", new List<Category> { new Category(Guid.NewGuid(), "") }, new List<Episode> { new Episode(Guid.NewGuid(), "", "", "", DateTime.Now, null, "") }, true);
+
+        allShows.Add(s3);
         groupedShows = new Dictionary<string, List<Show>>();
 
         groupedShows.Add("Your Classes", allShows);

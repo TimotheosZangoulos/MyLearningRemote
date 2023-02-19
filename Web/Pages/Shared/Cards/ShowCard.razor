@@ -6,7 +6,7 @@
       Subtitle="@Author"
       Image="@Image">
     <ActionMenu>
-        <div class="item-actions @(isSubscribed || isCurrentShow ? "visible" : "")">
+        @*<div class="item-actions @(isSubscribed || isCurrentShow ? "visible" : "")">
             @if (isCurrentShow)
             {
                 <PlayerBars Color="bars-white" IsPaused="@(!isPlaying)" />
@@ -17,7 +17,7 @@
                     title="@(isSubscribed ? "Unsubscribe" : "Subscribe")">
                 <span class="item-actions-icon @(isSubscribed ? "icon-subscribed-fill" : "icon-add-line")"></span>
             </button>
-        </div>
+        </div>*@
     </ActionMenu>
 </Card>
 
