@@ -20,8 +20,8 @@
     gap: 16px 32px;
     padding: 28px 2px;
     grid-template-areas:
-        'play resumeTitle'
-        'play actions';
+        'resumeTitle'
+        'resumeDescription';
     border-bottom: 1px solid var(--c-neutral-grey4);
 }
 
@@ -88,12 +88,12 @@
     font-family: var(--ff-regular);
     font-size: var(--text-m-fs);
     line-height: var(--text-m-lh);
-    display: none;
     word-break: break-word;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: -webkit-box;
 }
 
 .episode-description ::deep a {
@@ -130,20 +130,18 @@
 @media screen and (min-width: 768px) {
     .episode {
         gap: 16px 48px;
-        grid-template-areas:
-            'play resumeTitle actions'
-            'play resumeDescription actions';
+       
         grid-template-columns: auto 1fr auto;
     }
 
-    .episode-description {
+    /*.episode-description {
         display: -webkit-box;
-    }
+    }*/
 }
 
 @media screen and (min-width: 992px) {
-    .episode-actions {
+    /*.episode-actions {
         align-self: flex-start;
         padding-top: 67px;
-    }
+    }*/
 }
