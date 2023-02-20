@@ -1,0 +1,55 @@
+﻿@inject PlayerService PlayerService
+@inject ListenLaterService ListenLaterService
+@inject NavigationManager NavigationManager
+
+<article class="episode">
+
+    <div class="episode-resumeTitle">
+        @if (IsShowVisible)
+        {
+            <Picture Title="@News.Title" Image="_content/Podcast.Components/images/future.png" />
+        }
+
+        <div>
+            <h3 class="episode-resumeTitle-title">@News.Title</h3>
+            @if (IsShowVisible)
+            {
+                // show CLass name
+                <h4 class="episode-resumeTitle-showTitle">@News.Title</h4>
+            }
+            <h4 class="episode-resumeTitle-date">@News.Published.ToString("MMM dd, yyyy")</h4>
+        </div>
+    </div>
+    <p class="episode-description">
+        @((MarkupString)(News.Description ?? ""))
+    </p>
+
+</article>
+
+@code {
+    [EditorRequired]
+    [Parameter]
+    public EpisodeInfo News { get; set; } = default!;
+
+    [Parameter]
+    // If this is passed, it displays image
+    public bool IsShowVisible { get; set; } = false;
+
+
+    protected override void OnInitialized()
+    {
+       
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+           
+        }
+    }
+
+
+
+
+}
