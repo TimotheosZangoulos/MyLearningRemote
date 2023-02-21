@@ -49,25 +49,27 @@
     transition: all 0.2s ease;
 }
 
-.item-bg-deco::before {
-    content: "";
-    background: var(--gradient-final);
-    mix-blend-mode: multiply;
-    opacity: 0.6;
-    position: absolute;
-    inset: 0;
-    z-index: 6;
-}
+    .item-bg-deco::before {
+        content: "";
+        background: var(--gradient-final);
+        mix-blend-mode: multiply;
+        opacity: 0.6;
+        position: absolute;
+        inset: 0;
+        z-index: 6;
+        border-radius: 15px;
+    }
 
-.item-bg-deco::after {
-    content: "";
-    background: var(--gradient-final);
-    mix-blend-mode: screen;
-    opacity: 0.1;
-    position: absolute;
-    inset: 0;
-    z-index: 3;
-}
+    .item-bg-deco::after {
+        content: "";
+        background: var(--gradient-final);
+        mix-blend-mode: screen;
+        opacity: 0.1;
+        position: absolute;
+        inset: 0;
+        z-index: 3;
+        border-radius: 15px;
+    }
 
 .item-primary-action {
     position: absolute;
