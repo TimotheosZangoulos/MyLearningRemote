@@ -1,0 +1,104 @@
+﻿@page "/course/{id:guid}"
+@implements IDisposable
+@inject PlayerService PlayerService
+@inject PodcastService PodcastService
+@inject SubscriptionsService SubscriptionsService
+@inject PersistentComponentState ApplicationState
+
+<PageTitle>.NET Podcasts - @(show == null ? "Show": show.Title)</PageTitle>
+
+<div class="titleWrapper">
+    <button class="appLink" onclick="history.go(-1)">
+        <span class="appLink-icon icon-chevron-left"></span>
+        <span>Back</span>
+    </button>
+</div>
+
+@if (show == null)
+{
+    <Spinner />
+}
+else
+{
+    <div class="containerPage">
+        <ShowResume Title="@show.Title"
+                Author="@show.Author"
+                Description="@show.Description"
+                Image="@show.Image"
+                IsSubscribed="@isSubscribed"
+                Categories="@showCategories"
+                OnSubscriptionChange="@ChangeShowSubscription" />
+
+        <div class="showEpisodes">
+            @if (episodes == null)
+            {
+                <Spinner />
+            }
+            else if (episodes.Any())
+            {
+                <SubtitlePage Label="News" />
+
+                @*<Virtualize Items="@episodes" Context="item" TItem="EpisodeInfo" ItemSize="220">
+                    <EpisodeListItem Episode="@item" />
+                </Virtualize>*@
+                <Virtualize Items="@episodes" Context="item" TItem="EpisodeInfo" ItemSize="220">
+                    <NewsListItem News="@item"  />
+                </Virtualize>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    private bool isSubscribed = false;
+    private Show? show;
+    private ICollection<EpisodeInfo>? episodes;
+    private IEnumerable<string>? showCategories;
+    private PersistingComponentStateSubscription _persistingSubscription;
+
+    [Parameter]
+    public Guid Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        
+        show = new Show(Guid.NewGuid(), "Titile", "Course Name", "", "_content/Podcast.Components/images/future.png", DateTime.Now, "sadas", "", "", new List<Category> { new Category(Guid.NewGuid(), "") }, new List<Episode> { new Episode(Guid.NewGuid(), "", "", "", DateTime.Now, null, "") }, true);
+
+       // showCategories = show?.Categories?.Select(c => c.Genre);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (show != null && episodes == null)
+        {
+  
+            EpisodeInfo e1 = new EpisodeInfo(Guid.NewGuid(), "Title", "Description", "Url", DateTime.Now, null, null);
+            episodes = new List<EpisodeInfo>();
+            episodes.Add(e1);
+            episodes.Add(e1);
+            episodes.Add(e1);
+            episodes.Add(e1);
+            episodes.Add(e1);
+            episodes.Add(e1);
+            StateHasChanged();
+        }
+    }
+
+    private async Task ChangeShowSubscription()
+    {
+        isSubscribed = !isSubscribed;
+        await SubscriptionsService.ToggleShowSubscriptionAsync(new ShowInfo(show!), isSubscribed);
+    }
+
+
+    private Task PersistShow()
+    {
+        ApplicationState.PersistAsJson("show", show);
+        return Task.CompletedTask;
+    }
+
+    public void Dispose()
+    {
+        _persistingSubscription.Dispose();
+    }
+}

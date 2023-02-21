@@ -13,10 +13,10 @@
         </Tags>
     </div>
 
-    <button class="buttonApp @(IsSubscribed ? "secondary" : "primary")" title="@(IsSubscribed ? "Unsubscribe" : "Subscribe")" @onclick="OnSubscriptionChange">
+  @*  <button class="buttonApp @(IsSubscribed ? "secondary" : "primary")" title="@(IsSubscribed ? "Unsubscribe" : "Subscribe")" @onclick="OnSubscriptionChange">
         <span class="buttonApp-icon @(IsSubscribed ? "icon-subscribed-line" : "icon-add-line")"></span>
         <span>@(IsSubscribed ? "Subscribed" : "Subscribe")</span>
-    </button>
+    </button>*@
     <p class="showResume-description">@((MarkupString)(Description ?? ""))</p>
 </div>
 
