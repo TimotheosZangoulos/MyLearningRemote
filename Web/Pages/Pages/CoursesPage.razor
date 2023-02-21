@@ -1,13 +1,13 @@
-﻿@page "/discover"
+﻿@page "/courses"
 
 @inject PodcastService PodcastService
 @inject PlayerService PlayerService
 @inject SubscriptionsService SubscriptionsService
 @inject PersistentComponentState ApplicationState
 
-<PageTitle>.NET Podcasts - Discover</PageTitle>
+<PageTitle>Courses</PageTitle>
 
-<SearchBar OnSearch="@FetchShows" />
+@*<SearchBar OnSearch="@FetchShows" />*@
 
 @if (groupedShows == null)
 {
