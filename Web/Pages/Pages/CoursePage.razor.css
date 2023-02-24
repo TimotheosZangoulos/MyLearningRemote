@@ -1,6 +1,30 @@
-﻿.showEpisodes {
+﻿.course-content {
+    grid-area: course-view;
+}
+/*.course-container {
+    display: grid;
+}*/
+.showEpisodes {
     padding: 0 16px;
 }
+.course__sidebar {
+    box-shadow: 0 0 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    right: -80%;
+    grid-area: course-nav-bar;
+    z-index: 10;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.05);
+    color: var(--c-neutral-grey8);
+    transition: all 0.3s ease-in-out;
+    background-color: var(--c-neutral-white-complementary);
+    opacity: 0.95;
+}
+    .course__sidebar.open {
+        right: 0;
+    }
 
 .showEpisodes ::deep .subtitlePage {
     margin-bottom: 0;
@@ -9,6 +33,17 @@
 @media screen and (min-width: 992px) {
     .showEpisodes {
         padding: 0 48px;
+    }
+    .course__sidebar {
+        position: sticky;
+        width: 312px;
+    }
+
+    .course-container {
+        display: grid;
+        grid-template-areas:
+            "course-view course-nav-bar";
+        grid-template-columns: 1fr auto;
     }
 }
 

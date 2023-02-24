@@ -6,48 +6,61 @@
 @inject PersistentComponentState ApplicationState
 
 <PageTitle>.NET Podcasts - @(show == null ? "Show": show.Title)</PageTitle>
-
-<div class="titleWrapper">
-    <button class="appLink" onclick="history.go(-1)">
-        <span class="appLink-icon icon-chevron-left"></span>
-        <span>Back</span>
-    </button>
-</div>
-
-@if (show == null)
-{
-    <Spinner />
-}
-else
-{
-    <div class="containerPage">
-        <ShowResume Title="@show.Title"
-                Author="@show.Author"
-                Description="@show.Description"
-                Image="@show.Image"
-                IsSubscribed="@isSubscribed"
-                Categories="@showCategories"
-                OnSubscriptionChange="@ChangeShowSubscription" />
-
-        <div class="showEpisodes">
-            @if (episodes == null)
-            {
-                <Spinner />
-            }
-            else if (episodes.Any())
-            {
-                <SubtitlePage Label="News" />
-
-                @*<Virtualize Items="@episodes" Context="item" TItem="EpisodeInfo" ItemSize="220">
-                    <EpisodeListItem Episode="@item" />
-                </Virtualize>*@
-                <Virtualize Items="@episodes" Context="item" TItem="EpisodeInfo" ItemSize="220">
-                    <NewsListItem News="@item"  />
-                </Virtualize>
-            }
+    @*<div class="course-page">*@
+    @*<div class="course-page-content">*@
+        <div class="titleWrapper">
+            <button class="appLink" onclick="history.go(-1)">
+                <span class="appLink-icon icon-chevron-left"></span>
+                <span>Back</span>
+            </button>
         </div>
-    </div>
-}
+
+        @if (show == null)
+        {
+            <Spinner />
+        }
+        else
+        {
+            <div class="containerPage course-container">
+                <div class="course-content">
+                    <ShowResume Title="@show.Title"
+                            Author="@show.Author"
+                            Description="@show.Description"
+                            Image="@show.Image"
+                            IsSubscribed="@isSubscribed"
+                            Categories="@showCategories"
+                            OnSubscriptionChange="@ChangeShowSubscription" />
+
+                    <button @onclick=@togglesidebar>show sidebar</button>
+                
+                    <div class="showEpisodes">
+                        @if (episodes == null)
+                        {
+                            <Spinner />
+                        }
+                        else if (episodes.Any())
+                        {
+                            <SubtitlePage Label="News" />
+
+                            @*<Virtualize Items="@episodes" Context="item" TItem="EpisodeInfo" ItemSize="220">
+                                <EpisodeListItem Episode="@item" />
+                            </Virtualize>*@
+                            <Virtualize Items="@episodes" Context="item" TItem="EpisodeInfo" ItemSize="220">
+                                <NewsListItem News="@item"  />
+                            </Virtualize>
+                        }
+                    </div>
+            
+                </div>
+                <div class="course__sidebar @(show_sidebar ? "open" : "")">
+                    @*this component will take in the course id in order to decide what options to show and faciliate clicks and so on*@
+                    <CourseOptionsMenu courseId=@Id />
+                </div>
+            </div>
+        }
+    @*</div>*@
+   
+@*</div>*@
 
 @code {
     private bool isSubscribed = false;
@@ -55,13 +68,17 @@ else
     private ICollection<EpisodeInfo>? episodes;
     private IEnumerable<string>? showCategories;
     private PersistingComponentStateSubscription _persistingSubscription;
-
+    bool show_sidebar = false;
     [Parameter]
     public Guid Id { get; set; }
 
+    private void togglesidebar()
+    {
+        show_sidebar = !show_sidebar;
+        StateHasChanged();
+    }
     protected override async Task OnInitializedAsync()
     {
-        
         show = new Show(Guid.NewGuid(), "Titile", "Course Name", "", "_content/Podcast.Components/images/future.png", DateTime.Now, "sadas", "", "", new List<Category> { new Category(Guid.NewGuid(), "") }, new List<Episode> { new Episode(Guid.NewGuid(), "", "", "", DateTime.Now, null, "") }, true);
 
        // showCategories = show?.Categories?.Select(c => c.Genre);

@@ -6,6 +6,12 @@ AdditionalAssemblies="new[] { typeof(MainLayout).Assembly}">
 	<NotFound>
 		<LayoutView Layout="@typeof(MainLayout)">
 			<p>Sorry, there's nothing at this address.</p>
+			<div class="titleWrapper">
+				<button class="appLink" onclick="history.go(-1)">
+					<span class="appLink-icon icon-chevron-left"></span>
+					<span>Back</span>
+				</button>
+			</div>
 		</LayoutView>
 	</NotFound>
 </Router>
