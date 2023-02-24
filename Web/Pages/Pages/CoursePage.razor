@@ -6,8 +6,6 @@
 @inject PersistentComponentState ApplicationState
 
 <PageTitle>.NET Podcasts - @(show == null ? "Show": show.Title)</PageTitle>
-    @*<div class="course-page">*@
-    @*<div class="course-page-content">*@
         <div class="titleWrapper">
             <button class="appLink" onclick="history.go(-1)">
                 <span class="appLink-icon icon-chevron-left"></span>
@@ -20,7 +18,7 @@
             <Spinner />
         }
         else
-        {
+        {  
             <div class="containerPage course-container">
                 <div class="course-content">
                     <ShowResume Title="@show.Title"
@@ -42,9 +40,6 @@
                         {
                             <SubtitlePage Label="News" />
 
-                            @*<Virtualize Items="@episodes" Context="item" TItem="EpisodeInfo" ItemSize="220">
-                                <EpisodeListItem Episode="@item" />
-                            </Virtualize>*@
                             <Virtualize Items="@episodes" Context="item" TItem="EpisodeInfo" ItemSize="220">
                                 <NewsListItem News="@item"  />
                             </Virtualize>
@@ -53,14 +48,11 @@
             
                 </div>
                 <div class="course__sidebar @(show_sidebar ? "open" : "")">
-                    @*this component will take in the course id in order to decide what options to show and faciliate clicks and so on*@
                     <CourseOptionsMenu courseId=@Id />
                 </div>
             </div>
         }
-    @*</div>*@
-   
-@*</div>*@
+
 
 @code {
     private bool isSubscribed = false;

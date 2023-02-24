@@ -19,6 +19,7 @@ main {
     display: flex;
     justify-content: inherit;
     width: 100%;
+    z-index: 1;
 }
 
     main > article {
@@ -41,7 +42,29 @@ main {
     width: 100%;
     z-index: 5;
 }
+/*.course__sidebar {
+    box-shadow: 0 0 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    right: -80%;
+    grid-area: course-nav-bar;
+    z-index: 10;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.05);
+    color: var(--c-neutral-grey8);
+    transition: all 0.3s ease-in-out;
+    background-color: var(--c-neutral-white-complementary);
+    opacity: 0.95;
+    place-content: center;
+}
 
+
+
+
+    .course__sidebar.open {
+        right: 0;
+    }*/
 ::deep .footerPlayer {
     grid-area: player-bar;
     z-index: 1;
@@ -101,8 +124,20 @@ main {
         grid-template-columns: auto 1fr;
         grid-template-rows: 142px 1fr auto;
     }
+    /*.page {
+        grid-template-areas:
+            "header main-view course-nav-bar"
+            "nav-bar main-view course-nav-bar"
+            "player-bar player-bar player-bar";
+        grid-template-columns: 1fr 4fr auto;
+        grid-template-rows: 142px 1fr auto;
+    }
+    .course__sidebar {
+        position: sticky;
+        width: 312px;
+    }*/
 
-    main > article {
+        main > article {
         padding-top: 39px;
         padding-bottom: 0;
     }
