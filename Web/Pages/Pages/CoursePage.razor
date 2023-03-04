@@ -21,15 +21,21 @@
         {  
             <div class="containerPage course-container">
                 <div class="course-content">
-                    <ShowResume Title="@show.Title"
-                            Author="@show.Author"
-                            Description="@show.Description"
-                            Image="@show.Image"
-                            IsSubscribed="@isSubscribed"
-                            Categories="@showCategories"
-                            OnSubscriptionChange="@ChangeShowSubscription" />
+                    <div class="course-header-container">
+                        <div class="course-header">
+                            <ShowResume Title="@show.Title"
+                                    Author="@show.Author"
+                                    Description="@show.Description"
+                                    Image="@show.Image"
+                                    IsSubscribed="@isSubscribed"
+                                    Categories="@showCategories"
+                                    OnSubscriptionChange="@ChangeShowSubscription" />
+                        </div>
 
-                    <button @onclick=@togglesidebar>show sidebar</button>
+                <button class="toggle-sidebar @(show_sidebar ? "open" : "") fa fa-bars " @onclick=@togglesidebar>show sidebar</button>
+              
+                    </div>
+            @*<i class="toggle-sidebar fa fa-bars" @onclick=@togglesidebar></i>*@
                 
                     <div class="showEpisodes">
                         @if (episodes == null)

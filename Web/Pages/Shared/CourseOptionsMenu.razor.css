@@ -8,8 +8,8 @@
 .menu_title {
     font-size: 20px !important;
     text-align: center;
-    margin-top: 50px !important;
-    margin-bottom: 50px;
+    margin-top: 20% !important;
+    margin-bottom: 30%;
 }
 
 .navbarApp__wrapper2 {
@@ -96,5 +96,9 @@
     .navbarApp-linkIcon {
         margin-bottom: 0;
         margin-right: 16px;
+    }
+    .menu_title {
+        margin-top: 50px !important;
+        margin-bottom: 50px;
     }
 }
