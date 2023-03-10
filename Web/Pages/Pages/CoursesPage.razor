@@ -36,7 +36,7 @@ else
         }
         else
         {
-            foreach (var group in groupedShows)
+            foreach (var group in groupedShows)   // Use this for the parents
             {
                 <div class="titleWrapper">
                     <TitlePage Label="@group.Key" />
@@ -67,6 +67,12 @@ else
                 
 
             }
+            // if this is not a parent
+            
+            <div class="titleWrapper">
+                <TitlePage Label="Your next class" />
+            </div>
+            // here add the next clas picture and next to it have the date and time like in the news page
         }
     </div>
 }
